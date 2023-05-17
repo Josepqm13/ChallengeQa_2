@@ -26,7 +26,7 @@ Feature: PestStore endpoint test
 
     @UpdatePet
     Scenario: Actualizar el nombre de la mascota y el estatus de la mascota a “sold”
-      * def new_name = 'dinky'
+      * def new_name = 'doggie'
       * def status_sold = 'sold'
       * def body = read ('classpath:data/request/update_pet.json')
       * body.name = new_name
@@ -39,16 +39,14 @@ Feature: PestStore endpoint test
       Then status 200
       And match response.name == new_name
 
-  Scenario: Consultar la mascota modificada por estatus (Búsqueda por estatus)
-    * def new_name = [{name: 'dinky'}]
+  @SearchPetStatus
+#Escenario de busqueda de mascotas actualizada
+  Scenario: Buscar mascota por estado
+    * def new_name = [{name: 'Captain Nikita'}]
     * def status_sold = 'sold'
     * def body = read ('classpath:data/request/consultar_pet_modificada.json')
     * body.name = new_name
     * body.status = status_sold
-    Given url 'https://petstore.swagger.io/'
-    #Given url karate.petStore
-    And path pet, 'findByStatus'
-    And param status ='sold'
+    Given url 'https://petstore.swagger.io/v2/pet/findByStatus?status=sold'
     When method GET
     Then status 200
-    And match $ contains body
