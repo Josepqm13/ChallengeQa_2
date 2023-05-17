@@ -45,13 +45,13 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
     <div>Scenarios</div>
   </div>         
   <div id="nav-date">
-    <div>2023-05-17 04:17:41 AM</div>
+    <div>2023-05-17 12:35:08 PM</div>
   </div>        
 </div>
 
         <div class="nav-container">
           <div class="nav-item failed">
-            <a href="#[1:8]"><span>[1:8]</span> <span>Añadir una mascota a la tienda</span></a>
+            <a href="#[4:42]"><span>[4:42]</span> <span>Consultar la mascota modificada por estatus (Búsqueda por estatus)</span></a>
           </div>
         </div>
       </div>
@@ -65,29 +65,29 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
           <span class="feature-description"></span>
         </div>
         <div class="scenario">
-          <div class="scenario-heading" id="[1:8]">
+          <div class="scenario-heading" id="[4:42]">
             <div class="heading-container">
               <div class="scenario-tags">
                 
               </div>
               <div class="scenario-keyword">
-                Scenario: <span>[1:8]</span>
-                <span class="scenario-name">Añadir una mascota a la tienda</span>
+                Scenario: <span>[4:42]</span>
+                <span class="scenario-name">Consultar la mascota modificada por estatus (Búsqueda por estatus)</span>
                 <span></span>
               </div>
             </div>
             <div class="scenario-time failed">
-              <span>ms:</span>&nbsp;<span>0</span>
+              <span>ms:</span>&nbsp;<span>216</span>
             </div>
           </div>
           <div class="step-row">
-            <div class="step-container" id="[1:8]bg">
+            <div class="step-container" id="[4:42]bg">
               <div class="step-ref bg-step">&gt;&gt;</div>
               <div class="step-cell passed">Background:</div>
             </div>
             <div class="time-cell passed"></div>
           </div>
-          <div data-parent="[1:8]bg"><div>
+          <div data-parent="[4:42]bg"><div>
   
 
   
@@ -96,8 +96,239 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
     <div class="step-container" id="0.6">
       <div class="step-ref bg-step">6</div>
       
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def pet = &#39;v2/pet&#39;;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">72</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.43">
+      <div class="step-ref passed">43</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def new_name = [{name: &#39;dinky&#39;}]</span>
+      </div>
+    </div>
+    <div class="time-cell passed">49</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.44">
+      <div class="step-ref passed">44</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def status_sold = &#39;sold&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.45">
+      <div class="step-ref passed">45</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def body = read (&#39;classpath:data/request/consultar_pet_modificada.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">70</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.46">
+      <div class="step-ref passed">46</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>body.name = new_name</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.47">
+      <div class="step-ref passed">47</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>body.status = status_sold</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.48">
+      <div class="step-ref passed">48</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://petstore.swagger.io/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#Given url karate.petStore</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.50">
+      <div class="step-ref passed">50</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path pet, &#39;findByStatus&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">18</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.51">
+      <div class="step-ref failed">51</div>
+      
       <div class="step-cell failed">
-        <span>*</span>&nbsp;<span>def pet= &#39;v2/pet&#39;;</span>
+        <span>And</span>&nbsp;<span>param status =&#39;sold&#39;</span>
       </div>
     </div>
     <div class="time-cell failed">0</div>
@@ -109,10 +340,10 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.6">04:17:41.107 src/test/java/Features/PetStore/Pet.feature:6
-* def pet= &#39;v2/pet&#39;;
-no step-definition method match found for: def pet= &#39;v2/pet&#39;;
-src/test/java/Features/PetStore/Pet.feature:6
+  <div class="preformatted" data-parent="0.51">12:35:08.820 src/test/java/Features/PetStore/Pet.feature:51
+And param status =&#39;sold&#39;
+no step-definition method match found for: param status =&#39;sold&#39;
+src/test/java/Features/PetStore/Pet.feature:51
 </div>   
 
   
@@ -125,11 +356,11 @@ src/test/java/Features/PetStore/Pet.feature:6
   
 
   <div class="step-row">
-    <div class="step-container" id="0.9">
-      <div class="step-ref skipped">9</div>
+    <div class="step-container" id="0.52">
+      <div class="step-ref skipped">52</div>
       
       <div class="step-cell skipped">
-        <span>*</span>&nbsp;<span>def body = read (&#39;classpath:data/request/add_pet.json&#39;)</span>
+        <span>When</span>&nbsp;<span>method GET</span>
       </div>
     </div>
     <div class="time-cell skipped">0</div>
@@ -153,120 +384,8 @@ src/test/java/Features/PetStore/Pet.feature:6
   
 
   <div class="step-row">
-    <div class="step-container" id="0.10">
-      <div class="step-ref skipped">10</div>
-      
-      <div class="step-cell skipped">
-        <span>Given</span>&nbsp;<span>url karate.petStore</span>
-      </div>
-    </div>
-    <div class="time-cell skipped">0</div>
-  </div>
-
-   
-  
-  
-
-  
-
-     
-
-  
-
-</div>
-</div>
-          <div><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="0.11">
-      <div class="step-ref skipped">11</div>
-      
-      <div class="step-cell skipped">
-        <span>And</span>&nbsp;<span>path pet</span>
-      </div>
-    </div>
-    <div class="time-cell skipped">0</div>
-  </div>
-
-   
-  
-  
-
-  
-
-     
-
-  
-
-</div>
-</div>
-          <div><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="0.12">
-      <div class="step-ref skipped">12</div>
-      
-      <div class="step-cell skipped">
-        <span>And</span>&nbsp;<span>request body</span>
-      </div>
-    </div>
-    <div class="time-cell skipped">0</div>
-  </div>
-
-   
-  
-  
-
-  
-
-     
-
-  
-
-</div>
-</div>
-          <div><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="0.13">
-      <div class="step-ref skipped">13</div>
-      
-      <div class="step-cell skipped">
-        <span>When</span>&nbsp;<span>method POST</span>
-      </div>
-    </div>
-    <div class="time-cell skipped">0</div>
-  </div>
-
-   
-  
-  
-
-  
-
-     
-
-  
-
-</div>
-</div>
-          <div><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="0.14">
-      <div class="step-ref skipped">14</div>
+    <div class="step-container" id="0.53">
+      <div class="step-ref skipped">53</div>
       
       <div class="step-cell skipped">
         <span>Then</span>&nbsp;<span>status 200</span>
@@ -293,39 +412,11 @@ src/test/java/Features/PetStore/Pet.feature:6
   
 
   <div class="step-row">
-    <div class="step-container" id="0.15">
-      <div class="step-ref skipped">15</div>
+    <div class="step-container" id="0.54">
+      <div class="step-ref skipped">54</div>
       
       <div class="step-cell skipped">
-        <span>And</span>&nbsp;<span>match response.id == body.id</span>
-      </div>
-    </div>
-    <div class="time-cell skipped">0</div>
-  </div>
-
-   
-  
-  
-
-  
-
-     
-
-  
-
-</div>
-</div>
-          <div><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="0.16">
-      <div class="step-ref skipped">16</div>
-      
-      <div class="step-cell skipped">
-        <span>And</span>&nbsp;<span>match response.name == body name</span>
+        <span>And</span>&nbsp;<span>match $ contains body</span>
       </div>
     </div>
     <div class="time-cell skipped">0</div>
