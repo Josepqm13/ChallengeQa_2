@@ -1,0 +1,21 @@
+CONCLUSIONES
+1- Añadir una mascota a la tienda:
+	La funcionalidad de agregar una mascota a la tienda funciona correctamente.
+	La API acepta los parámetros y el cuerpo de la petición según la especificación.
+	La respuesta del servidor indica si la operación fue exitosa.
+2- Consultar la mascota ingresada previamente (Búsqueda por ID):
+	La funcionalidad de búsqueda de mascotas por ID está implementada adecuadamente.
+	La API devuelve la mascota correspondiente al ID proporcionado.
+	La respuesta del servidor incluye los datos esperados de la mascota consultada.
+	
+3- Actualizar el nombre de la mascota y el estatus de la mascota a "sold":
+	La funcionalidad de actualización de datos de una mascota funciona correctamente.
+	La API permite modificar el nombre y el estatus de una mascota existente.
+	La respuesta del servidor confirma que los cambios se realizaron correctamente.
+
+4- Consultar la mascota modificada por estatus (Búsqueda por estatus):
+	La funcionalidad de búsqueda de mascotas por estatus está implementada adecuadamente.
+	La API devuelve las mascotas que coinciden con el estatus especificado.
+	La respuesta del servidor incluye las mascotas esperadas según el estatus.
+
+En general, se puede concluir que la API de la "PetStore" cumple con los requisitos funcionales para las operaciones de agregar, consultar y actualizar mascotas. Las respuestas del servidor indican si las operaciones se realizaron con éxito y los datos devueltos son coherentes con las acciones realizadas.

@@ -1,0 +1,792 @@
+00:46:44.485 [main]  INFO  com.intuit.karate - Karate version: 1.2.0
+00:46:46.010 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:9
+* def body = read ('classpath:data/request/file_boy.json')
+js failed:
+>>>>
+01: read ('classpath:data/request/file_boy.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: data/request/file_boy.json
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:118)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:128)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:102)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:56)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:129)
+- <js>.:program(Unnamed:1)
+
+src/test/java/Features/PetStore/Pet.feature:9
+00:46:46.044 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:20
+* def body = read ('classpath:data/request/file_boy.json')
+js failed:
+>>>>
+01: read ('classpath:data/request/file_boy.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: data/request/file_boy.json
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:118)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:128)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:102)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:56)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:129)
+- <js>.:program(Unnamed:1)
+
+src/test/java/Features/PetStore/Pet.feature:20
+00:46:46.055 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:30
+* def body = read ('classpath:data/request/file_boy.json')
+js failed:
+>>>>
+01: read ('classpath:data/request/file_boy.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: data/request/file_boy.json
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:118)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:128)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:102)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:56)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:129)
+- <js>.:program(Unnamed:1)
+
+src/test/java/Features/PetStore/Pet.feature:30
+00:46:46.099 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:43
+* def body = read ('classpath:data/request/file_boy.json')
+js failed:
+>>>>
+01: read ('classpath:data/request/file_boy.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: data/request/file_boy.json
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:118)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:128)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:102)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:56)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:129)
+- <js>.:program(Unnamed:1)
+
+src/test/java/Features/PetStore/Pet.feature:43
+00:46:47.119 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Features/PetStore/Pet.feature
+00:52:00.157 [main]  INFO  com.intuit.karate - Karate version: 1.2.0
+00:52:00.452 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1684302720450
+00:52:01.496 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:9
+* def body = read ('classpath:data/request/file_boy.json')
+js failed:
+>>>>
+01: read ('classpath:data/request/file_boy.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: data/request/file_boy.json
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:118)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:128)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:102)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:56)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:129)
+- <js>.:program(Unnamed:1)
+
+src/test/java/Features/PetStore/Pet.feature:9
+00:52:01.539 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:20
+* def body = read ('classpath:data/request/file_boy.json')
+js failed:
+>>>>
+01: read ('classpath:data/request/file_boy.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: data/request/file_boy.json
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:118)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:128)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:102)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:56)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:129)
+- <js>.:program(Unnamed:1)
+
+src/test/java/Features/PetStore/Pet.feature:20
+00:52:01.555 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:30
+* def body = read ('classpath:data/request/file_boy.json')
+js failed:
+>>>>
+01: read ('classpath:data/request/file_boy.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: data/request/file_boy.json
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:118)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:128)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:102)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:56)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:129)
+- <js>.:program(Unnamed:1)
+
+src/test/java/Features/PetStore/Pet.feature:30
+00:52:01.613 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:43
+* def body = read ('classpath:data/request/file_boy.json')
+js failed:
+>>>>
+01: read ('classpath:data/request/file_boy.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: data/request/file_boy.json
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:118)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:128)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:102)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:56)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:129)
+- <js>.:program(Unnamed:1)
+
+src/test/java/Features/PetStore/Pet.feature:43
+00:52:02.609 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Features/PetStore/Pet.feature
+00:53:46.822 [main]  INFO  com.intuit.karate - Karate version: 1.2.0
+00:53:47.116 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1684302827113
+00:53:48.086 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:9
+* def body = read ('classpath:data/request/file_body.json')
+js failed:
+>>>>
+01: read ('classpath:data/request/file_body.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: data/request/file_body.json
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:118)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:128)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:102)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:56)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:129)
+- <js>.:program(Unnamed:1)
+
+src/test/java/Features/PetStore/Pet.feature:9
+00:53:48.147 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:20
+* def body = read ('classpath:data/request/file_body.json')
+js failed:
+>>>>
+01: read ('classpath:data/request/file_body.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: data/request/file_body.json
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:118)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:128)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:102)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:56)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:129)
+- <js>.:program(Unnamed:1)
+
+src/test/java/Features/PetStore/Pet.feature:20
+00:53:48.168 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:30
+* def body = read ('classpath:data/request/file_body.json')
+js failed:
+>>>>
+01: read ('classpath:data/request/file_body.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: data/request/file_body.json
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:118)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:128)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:102)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:56)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:129)
+- <js>.:program(Unnamed:1)
+
+src/test/java/Features/PetStore/Pet.feature:30
+00:53:48.234 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:43
+* def body = read ('classpath:data/request/file_body.json')
+js failed:
+>>>>
+01: read ('classpath:data/request/file_body.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: data/request/file_body.json
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:118)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:128)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:102)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:56)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:129)
+- <js>.:program(Unnamed:1)
+
+src/test/java/Features/PetStore/Pet.feature:43
+00:53:49.225 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Features/PetStore/Pet.feature
+00:58:33.977 [main]  INFO  com.intuit.karate - Karate version: 1.2.0
+00:58:34.311 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1684303114309
+00:58:35.326 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:10
+Given url petstore
+js failed:
+>>>>
+01: petstore
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "petstore" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/Features/PetStore/Pet.feature:10
+00:58:35.337 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:21
+Given url petstore
+js failed:
+>>>>
+01: petstore
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "petstore" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/Features/PetStore/Pet.feature:21
+00:58:35.357 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:31
+* body.name = new_name
+js failed:
+>>>>
+01: body.name = new_name
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot set property "name" of null
+- <js>.:program(Unnamed:1)
+
+src/test/java/Features/PetStore/Pet.feature:31
+00:58:35.406 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:44
+* body.name = new_name
+js failed:
+>>>>
+01: body.name = new_name
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "new_name" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/Features/PetStore/Pet.feature:44
+00:58:36.372 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Features/PetStore/Pet.feature
+01:01:16.303 [main]  INFO  com.intuit.karate - Karate version: 1.2.0
+01:01:16.666 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1684303276663
+01:01:17.801 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:10
+Given url petStore
+js failed:
+>>>>
+01: petStore
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "petStore" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/Features/PetStore/Pet.feature:10
+01:01:17.812 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:21
+Given url petStore
+js failed:
+>>>>
+01: petStore
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "petStore" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/Features/PetStore/Pet.feature:21
+01:01:17.837 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:31
+* body.name = new_name
+js failed:
+>>>>
+01: body.name = new_name
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot set property "name" of null
+- <js>.:program(Unnamed:1)
+
+src/test/java/Features/PetStore/Pet.feature:31
+01:01:17.902 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:44
+* body.name = new_name
+js failed:
+>>>>
+01: body.name = new_name
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "new_name" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/Features/PetStore/Pet.feature:44
+01:01:18.904 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Features/PetStore/Pet.feature
+01:02:17.376 [main]  INFO  com.intuit.karate - Karate version: 1.2.0
+01:02:17.637 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1684303337635
+01:02:19.119 [main]  ERROR com.intuit.karate - org.apache.http.ProtocolException: Target host is not specified, http call failed after 513 milliseconds for url: /v2/pet
+01:02:19.123 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:13
+When method POST
+http call failed after 513 milliseconds for url: /v2/pet
+src/test/java/Features/PetStore/Pet.feature:13
+01:02:19.146 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:21
+Given url petStore
+js failed:
+>>>>
+01: petStore
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "petStore" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/Features/PetStore/Pet.feature:21
+01:02:19.160 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:31
+* body.name = new_name
+js failed:
+>>>>
+01: body.name = new_name
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot set property "name" of null
+- <js>.:program(Unnamed:1)
+
+src/test/java/Features/PetStore/Pet.feature:31
+01:02:19.214 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:44
+* body.name = new_name
+js failed:
+>>>>
+01: body.name = new_name
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "new_name" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/Features/PetStore/Pet.feature:44
+01:02:20.073 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Features/PetStore/Pet.feature
+01:02:50.956 [main]  INFO  com.intuit.karate - Karate version: 1.2.0
+01:02:51.267 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1684303371265
+01:02:52.748 [main]  ERROR com.intuit.karate - org.apache.http.ProtocolException: Target host is not specified, http call failed after 550 milliseconds for url: /v2/pet
+01:02:52.749 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:13
+When method POST
+http call failed after 550 milliseconds for url: /v2/pet
+src/test/java/Features/PetStore/Pet.feature:13
+01:02:52.785 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:22
+And path pet, body.id
+js failed:
+>>>>
+01: [pet, body.id]
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot read property "id" from null
+- <js>.:program(Unnamed:1)
+
+src/test/java/Features/PetStore/Pet.feature:22
+01:02:52.801 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:31
+* body.name = new_name
+js failed:
+>>>>
+01: body.name = new_name
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot set property "name" of null
+- <js>.:program(Unnamed:1)
+
+src/test/java/Features/PetStore/Pet.feature:31
+01:02:52.864 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:44
+* body.name = new_name
+js failed:
+>>>>
+01: body.name = new_name
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "new_name" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/Features/PetStore/Pet.feature:44
+01:02:53.884 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Features/PetStore/Pet.feature
+01:16:21.424 [main]  INFO  com.intuit.karate - Karate version: 1.2.0
+01:16:21.722 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1684304181720
+01:16:22.750 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:9
+* def body = read ('classpath:data/request/file_body.json')
+js failed:
+>>>>
+01: read ('classpath:data/request/file_body.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: data/request/file_body.json
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:118)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:128)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:102)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:56)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:129)
+- <js>.:program(Unnamed:1)
+
+src/test/java/Features/PetStore/Pet.feature:9
+01:16:22.785 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:20
+* def body = read ('classpath:data/request/file_body.json')
+js failed:
+>>>>
+01: read ('classpath:data/request/file_body.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: data/request/file_body.json
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:118)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:128)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:102)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:56)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:129)
+- <js>.:program(Unnamed:1)
+
+src/test/java/Features/PetStore/Pet.feature:20
+01:16:22.800 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:30
+* def body = read ('classpath:data/request/file_body.json')
+js failed:
+>>>>
+01: read ('classpath:data/request/file_body.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: data/request/file_body.json
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:118)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:128)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:102)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:56)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:129)
+- <js>.:program(Unnamed:1)
+
+src/test/java/Features/PetStore/Pet.feature:30
+01:16:22.856 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:43
+* def body = read ('classpath:data/request/file_body.json')
+js failed:
+>>>>
+01: read ('classpath:data/request/file_body.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: data/request/file_body.json
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:118)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:128)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:102)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:56)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:129)
+- <js>.:program(Unnamed:1)
+
+src/test/java/Features/PetStore/Pet.feature:43
+01:16:23.845 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Features/PetStore/Pet.feature
+01:18:20.807 [main]  INFO  com.intuit.karate - Karate version: 1.2.0
+01:18:21.085 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1684304301082
+01:18:22.777 [main]  ERROR com.intuit.karate - org.apache.http.ProtocolException: Target host is not specified, http call failed after 565 milliseconds for url: /v2/pet
+01:18:22.778 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:13
+When method POST
+http call failed after 565 milliseconds for url: /v2/pet
+src/test/java/Features/PetStore/Pet.feature:13
+01:18:22.806 [main]  ERROR com.intuit.karate - org.apache.http.ProtocolException: Target host is not specified, http call failed after 1 milliseconds for url: /v2/pet/0
+01:18:22.807 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:23
+When method GET
+http call failed after 1 milliseconds for url: /v2/pet/0
+src/test/java/Features/PetStore/Pet.feature:23
+01:18:22.822 [main]  ERROR com.intuit.karate - org.apache.http.ProtocolException: Target host is not specified, http call failed after 1 milliseconds for url: /v2/pet
+01:18:22.822 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:36
+When method PUT
+http call failed after 1 milliseconds for url: /v2/pet
+src/test/java/Features/PetStore/Pet.feature:36
+01:18:22.852 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:44
+* body.name = new_name
+js failed:
+>>>>
+01: body.name = new_name
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "new_name" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/Features/PetStore/Pet.feature:44
+01:18:23.738 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Features/PetStore/Pet.feature
+01:26:19.456 [main]  INFO  com.intuit.karate - Karate version: 1.2.0
+01:26:19.772 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1684304779769
+01:26:21.642 [main]  ERROR com.intuit.karate - org.apache.http.ProtocolException: Target host is not specified, http call failed after 653 milliseconds for url: /petstore.swagger.io/v2%20
+01:26:21.643 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:13
+When method POST
+http call failed after 653 milliseconds for url: /petstore.swagger.io/v2%20
+src/test/java/Features/PetStore/Pet.feature:13
+01:26:21.677 [main]  ERROR com.intuit.karate - org.apache.http.ProtocolException: Target host is not specified, http call failed after 1 milliseconds for url: /petstore.swagger.io/v2%20/0
+01:26:21.678 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:23
+When method GET
+http call failed after 1 milliseconds for url: /petstore.swagger.io/v2%20/0
+src/test/java/Features/PetStore/Pet.feature:23
+01:26:21.711 [main]  ERROR com.intuit.karate - org.apache.http.ProtocolException: Target host is not specified, http call failed after 1 milliseconds for url: /petstore.swagger.io/v2%20
+01:26:21.711 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:36
+When method PUT
+http call failed after 1 milliseconds for url: /petstore.swagger.io/v2%20
+src/test/java/Features/PetStore/Pet.feature:36
+01:26:21.733 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:44
+* body.name = new_name
+js failed:
+>>>>
+01: body.name = new_name
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "new_name" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/Features/PetStore/Pet.feature:44
+01:26:22.651 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Features/PetStore/Pet.feature
+01:31:17.567 [main]  INFO  com.intuit.karate - Karate version: 1.2.0
+01:31:17.836 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1684305077834
+01:31:18.990 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:11
+And path pet
+js failed:
+>>>>
+01: pet
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "pet" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/Features/PetStore/Pet.feature:11
+01:31:19.011 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:22
+And path pet, body.id
+js failed:
+>>>>
+01: [pet, body.id]
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "pet" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/Features/PetStore/Pet.feature:22
+01:31:19.033 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:34
+And path pet
+js failed:
+>>>>
+01: pet
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "pet" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/Features/PetStore/Pet.feature:34
+01:31:19.050 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:44
+* body.name = new_name
+js failed:
+>>>>
+01: body.name = new_name
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "new_name" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/Features/PetStore/Pet.feature:44
+01:31:20.026 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Features/PetStore/Pet.feature
+01:32:48.195 [main]  INFO  com.intuit.karate - Karate version: 1.2.0
+01:32:48.484 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1684305168482
+01:32:50.262 [main]  ERROR com.intuit.karate - org.apache.http.ProtocolException: Target host is not specified, http call failed after 586 milliseconds for url: /v2/petStore
+01:32:50.262 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:13
+When method POST
+http call failed after 586 milliseconds for url: /v2/petStore
+src/test/java/Features/PetStore/Pet.feature:13
+01:32:50.291 [main]  ERROR com.intuit.karate - org.apache.http.ProtocolException: Target host is not specified, http call failed after 0 milliseconds for url: /v2/petStore/0
+01:32:50.292 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:23
+When method GET
+http call failed after 0 milliseconds for url: /v2/petStore/0
+src/test/java/Features/PetStore/Pet.feature:23
+01:32:50.304 [main]  ERROR com.intuit.karate - org.apache.http.ProtocolException: Target host is not specified, http call failed after 1 milliseconds for url: /v2/petStore
+01:32:50.304 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:36
+When method PUT
+http call failed after 1 milliseconds for url: /v2/petStore
+src/test/java/Features/PetStore/Pet.feature:36
+01:32:50.323 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:44
+* body.name = new_name
+js failed:
+>>>>
+01: body.name = new_name
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "new_name" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/Features/PetStore/Pet.feature:44
+01:32:51.164 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Features/PetStore/Pet.feature
+01:34:08.334 [main]  INFO  com.intuit.karate - Karate version: 1.2.0
+01:34:08.611 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1684305248609
+01:34:10.396 [main]  ERROR com.intuit.karate - org.apache.http.ProtocolException: Target host is not specified, http call failed after 654 milliseconds for url: /v2
+01:34:10.396 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:13
+When method POST
+http call failed after 654 milliseconds for url: /v2
+src/test/java/Features/PetStore/Pet.feature:13
+01:34:10.428 [main]  ERROR com.intuit.karate - org.apache.http.ProtocolException: Target host is not specified, http call failed after 1 milliseconds for url: /v2/0
+01:34:10.428 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:23
+When method GET
+http call failed after 1 milliseconds for url: /v2/0
+src/test/java/Features/PetStore/Pet.feature:23
+01:34:10.444 [main]  ERROR com.intuit.karate - org.apache.http.ProtocolException: Target host is not specified, http call failed after 1 milliseconds for url: /v2
+01:34:10.445 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:36
+When method PUT
+http call failed after 1 milliseconds for url: /v2
+src/test/java/Features/PetStore/Pet.feature:36
+01:34:10.477 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:44
+* body.name = new_name
+js failed:
+>>>>
+01: body.name = new_name
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "new_name" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/Features/PetStore/Pet.feature:44
+01:34:11.419 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Features/PetStore/Pet.feature
+01:36:15.796 [main]  INFO  com.intuit.karate - Karate version: 1.2.0
+01:36:16.080 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1684305376077
+01:36:17.773 [main]  ERROR com.intuit.karate - org.apache.http.ProtocolException: Target host is not specified, http call failed after 581 milliseconds for url: /https:/petstore.swagger.io/v2
+01:36:17.773 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:13
+When method POST
+http call failed after 581 milliseconds for url: /https:/petstore.swagger.io/v2
+src/test/java/Features/PetStore/Pet.feature:13
+01:36:17.802 [main]  ERROR com.intuit.karate - org.apache.http.ProtocolException: Target host is not specified, http call failed after 1 milliseconds for url: /https:/petstore.swagger.io/v2/0
+01:36:17.803 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:23
+When method GET
+http call failed after 1 milliseconds for url: /https:/petstore.swagger.io/v2/0
+src/test/java/Features/PetStore/Pet.feature:23
+01:36:17.823 [main]  ERROR com.intuit.karate - org.apache.http.ProtocolException: Target host is not specified, http call failed after 1 milliseconds for url: /https:/petstore.swagger.io/v2
+01:36:17.823 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:36
+When method PUT
+http call failed after 1 milliseconds for url: /https:/petstore.swagger.io/v2
+src/test/java/Features/PetStore/Pet.feature:36
+01:36:17.849 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:44
+* body.name = new_name
+js failed:
+>>>>
+01: body.name = new_name
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "new_name" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/Features/PetStore/Pet.feature:44
+01:36:18.682 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Features/PetStore/Pet.feature
+01:38:06.067 [main]  INFO  com.intuit.karate - Karate version: 1.2.0
+01:38:06.336 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1684305486334
+01:38:08.086 [main]  ERROR com.intuit.karate - org.apache.http.ProtocolException: Target host is not specified, http call failed after 602 milliseconds for url: /petstore.swagger.io/v2
+01:38:08.086 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:13
+When method POST
+http call failed after 602 milliseconds for url: /petstore.swagger.io/v2
+src/test/java/Features/PetStore/Pet.feature:13
+01:38:08.111 [main]  ERROR com.intuit.karate - org.apache.http.ProtocolException: Target host is not specified, http call failed after 1 milliseconds for url: /petstore.swagger.io/v2/0
+01:38:08.111 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:23
+When method GET
+http call failed after 1 milliseconds for url: /petstore.swagger.io/v2/0
+src/test/java/Features/PetStore/Pet.feature:23
+01:38:08.128 [main]  ERROR com.intuit.karate - org.apache.http.ProtocolException: Target host is not specified, http call failed after 1 milliseconds for url: /petstore.swagger.io/v2
+01:38:08.128 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:36
+When method PUT
+http call failed after 1 milliseconds for url: /petstore.swagger.io/v2
+src/test/java/Features/PetStore/Pet.feature:36
+01:38:08.151 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:44
+* body.name = new_name
+js failed:
+>>>>
+01: body.name = new_name
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "new_name" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/Features/PetStore/Pet.feature:44
+01:38:09.020 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Features/PetStore/Pet.feature
+02:30:59.081 [main]  INFO  com.intuit.karate - Karate version: 1.2.0
+02:30:59.308 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1684308659305
+02:31:01.065 [main]  ERROR com.intuit.karate - org.apache.http.ProtocolException: Target host is not specified, http call failed after 589 milliseconds for url: /petstore.swagger.io/v2
+02:31:01.066 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:13
+When method POST
+http call failed after 589 milliseconds for url: /petstore.swagger.io/v2
+src/test/java/Features/PetStore/Pet.feature:13
+02:31:01.085 [main]  ERROR com.intuit.karate - org.apache.http.ProtocolException: Target host is not specified, http call failed after 1 milliseconds for url: /petstore.swagger.io/v2/0
+02:31:01.085 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:23
+When method GET
+http call failed after 1 milliseconds for url: /petstore.swagger.io/v2/0
+src/test/java/Features/PetStore/Pet.feature:23
+02:31:01.103 [main]  ERROR com.intuit.karate - org.apache.http.ProtocolException: Target host is not specified, http call failed after 0 milliseconds for url: /petstore.swagger.io/v2
+02:31:01.104 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:36
+When method PUT
+http call failed after 0 milliseconds for url: /petstore.swagger.io/v2
+src/test/java/Features/PetStore/Pet.feature:36
+02:31:01.127 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:44
+* body.name = new_name
+js failed:
+>>>>
+01: body.name = new_name
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "new_name" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/Features/PetStore/Pet.feature:44
+02:31:01.892 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Features/PetStore/Pet.feature
+02:34:17.062 [main]  INFO  com.intuit.karate - Karate version: 1.2.0
+02:34:17.364 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1684308857362
+02:34:18.896 [main]  ERROR com.intuit.karate - org.apache.http.ProtocolException: Target host is not specified, http call failed after 563 milliseconds for url: /petstore.swagger.io/v2
+02:34:18.896 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:13
+When method POST
+http call failed after 563 milliseconds for url: /petstore.swagger.io/v2
+src/test/java/Features/PetStore/Pet.feature:13
+02:34:18.914 [main]  ERROR com.intuit.karate - org.apache.http.ProtocolException: Target host is not specified, http call failed after 0 milliseconds for url: /petstore.swagger.io/v2/0
+02:34:18.915 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:23
+When method GET
+http call failed after 0 milliseconds for url: /petstore.swagger.io/v2/0
+src/test/java/Features/PetStore/Pet.feature:23
+02:34:18.931 [main]  ERROR com.intuit.karate - org.apache.http.ProtocolException: Target host is not specified, http call failed after 1 milliseconds for url: /petstore.swagger.io/v2
+02:34:18.932 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:36
+When method PUT
+http call failed after 1 milliseconds for url: /petstore.swagger.io/v2
+src/test/java/Features/PetStore/Pet.feature:36
+02:34:18.942 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:49
+And param status='sold'
+no step-definition method match found for: param status='sold'
+src/test/java/Features/PetStore/Pet.feature:49
+02:34:19.701 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Features/PetStore/Pet.feature
+02:35:13.135 [main]  INFO  com.intuit.karate - Karate version: 1.2.0
+02:35:13.384 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1684308913382
+02:35:14.162 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:6
+* def pet= 'v2/pet';
+no step-definition method match found for: def pet= 'v2/pet';
+src/test/java/Features/PetStore/Pet.feature:6
+02:35:14.168 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:6
+* def pet= 'v2/pet';
+no step-definition method match found for: def pet= 'v2/pet';
+src/test/java/Features/PetStore/Pet.feature:6
+02:35:14.175 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:6
+* def pet= 'v2/pet';
+no step-definition method match found for: def pet= 'v2/pet';
+src/test/java/Features/PetStore/Pet.feature:6
+02:35:14.180 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:6
+* def pet= 'v2/pet';
+no step-definition method match found for: def pet= 'v2/pet';
+src/test/java/Features/PetStore/Pet.feature:6
+02:35:15.283 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Features/PetStore/Pet.feature
+02:35:43.338 [main]  INFO  com.intuit.karate - Karate version: 1.2.0
+02:35:43.554 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1684308943553
+02:35:44.224 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:6
+* def pet= 'v2/pet';
+no step-definition method match found for: def pet= 'v2/pet';
+src/test/java/Features/PetStore/Pet.feature:6
+02:35:44.230 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:6
+* def pet= 'v2/pet';
+no step-definition method match found for: def pet= 'v2/pet';
+src/test/java/Features/PetStore/Pet.feature:6
+02:35:44.237 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:6
+* def pet= 'v2/pet';
+no step-definition method match found for: def pet= 'v2/pet';
+src/test/java/Features/PetStore/Pet.feature:6
+02:35:44.242 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:6
+* def pet= 'v2/pet';
+no step-definition method match found for: def pet= 'v2/pet';
+src/test/java/Features/PetStore/Pet.feature:6
+02:35:45.206 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Features/PetStore/Pet.feature
+04:01:42.031 [main]  INFO  com.intuit.karate - Karate version: 1.2.0
+04:01:42.277 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1684314102275
+04:01:42.299 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8
+04:01:43.093 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:6
+* def pet= 'v2/pet';
+no step-definition method match found for: def pet= 'v2/pet';
+src/test/java/Features/PetStore/Pet.feature:6
+04:01:44.042 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Features/PetStore/Pet.feature
+04:07:10.900 [main]  INFO  com.intuit.karate - Karate version: 1.2.0
+04:07:11.164 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1684314431161
+04:07:11.186 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8
+04:07:11.958 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:6
+* def pet= 'v2';
+no step-definition method match found for: def pet= 'v2';
+src/test/java/Features/PetStore/Pet.feature:6
+04:07:12.997 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Features/PetStore/Pet.feature
+04:08:36.732 [main]  INFO  com.intuit.karate - Karate version: 1.2.0
+04:08:37.077 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1684314517075
+04:08:37.113 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8
+04:08:37.931 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:6
+* def pet= 'v2';
+no step-definition method match found for: def pet= 'v2';
+src/test/java/Features/PetStore/Pet.feature:6
+04:08:39.009 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Features/PetStore/Pet.feature
+04:11:21.562 [main]  INFO  com.intuit.karate - Karate version: 1.2.0
+04:11:21.830 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1684314681829
+04:11:21.851 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8
+04:11:22.630 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:6
+* def pet= '/v2';
+no step-definition method match found for: def pet= '/v2';
+src/test/java/Features/PetStore/Pet.feature:6
+04:11:23.600 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Features/PetStore/Pet.feature
+04:16:15.896 [main]  INFO  com.intuit.karate - Karate version: 1.2.0
+04:16:16.128 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1684314976125
+04:16:16.155 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8
+04:16:16.842 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:6
+* def pet= '/v2';
+no step-definition method match found for: def pet= '/v2';
+src/test/java/Features/PetStore/Pet.feature:6
+04:16:17.868 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Features/PetStore/Pet.feature
+04:17:09.395 [main]  INFO  com.intuit.karate - Karate version: 1.2.0
+04:17:09.638 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1684315029635
+04:17:09.673 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8
+04:17:10.446 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:6
+* def pet= 'v2/Pet';
+no step-definition method match found for: def pet= 'v2/Pet';
+src/test/java/Features/PetStore/Pet.feature:6
+04:17:11.412 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Features/PetStore/Pet.feature
+04:17:21.417 [main]  INFO  com.intuit.karate - Karate version: 1.2.0
+04:17:21.641 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1684315041639
+04:17:21.659 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8
+04:17:22.322 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:6
+* def Pet= 'v2/Pet';
+no step-definition method match found for: def Pet= 'v2/Pet';
+src/test/java/Features/PetStore/Pet.feature:6
+04:17:23.296 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Features/PetStore/Pet.feature
+04:17:40.169 [main]  INFO  com.intuit.karate - Karate version: 1.2.0
+04:17:40.391 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1684315060389
+04:17:40.411 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8
+04:17:41.107 [main]  ERROR com.intuit.karate - src/test/java/Features/PetStore/Pet.feature:6
+* def pet= 'v2/pet';
+no step-definition method match found for: def pet= 'v2/pet';
+src/test/java/Features/PetStore/Pet.feature:6
+04:17:42.021 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Features/PetStore/Pet.feature

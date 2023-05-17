@@ -1,0 +1,40 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.9.2'
+    implementation group: 'com.intuit.karate', name: 'karate-junit5', version: '1.2.0'
+    testImplementation 'net.masterthought:cucumber-reporting:5.7.5'
+    testImplementation group: 'info.cukes', name: 'cucumber-junit', version: '1.2.5'
+    implementation group: 'io.cucumber', name: 'cucumber-java', version: '7.11.0'
+}
+
+test {
+    useJUnitPlatform()
+    systemProperty "url", System.properties.getProperty("url")
+    systemProperty "karate.options", System.properties.getProperty("karate.options")
+    systemProperty "karate.env", System.properties.getProperty("karate.env")
+    outputs.upToDateWhen {false}
+
+}
+ext {
+    serenityVersion='2.3.12'
+}
+
+sourceSets{
+    test{
+        resources{
+            srcDir file('src/test/java')
+            exclude '**/*.java'
+        }
+    }
+}
